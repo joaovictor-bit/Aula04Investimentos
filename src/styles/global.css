@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #b0c1c6, #473a68);
+}
+
+.container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
